@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: webinar-web-app
-          image: acrkube1523.azurecr.io/saikrishnap123/k8s-ci-cd:latest
+          image: acrcontainer152.azurecr.io/nginx:1752
           imagePullPolicy: Always
           ports:
           - containerPort: 3000
